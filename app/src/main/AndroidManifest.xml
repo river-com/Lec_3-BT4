@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Manhinhthongtin">
         <activity
+            android:name=".EditActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Manhinhthongtin"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Manhinhthongtin"
